@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.author       = { "CMBSDK" => "marketing@dingxiang-inc.com" }
     s.source           = { :git => 'https://github.com/letspod/DXRisk.git', :tag => s.version.to_s }
     s.requires_arc = true  
-    s.frameworks = 'libz','libresolv','SystemConfiguration','CoreLocation','CoreTelephony'
+    #s.frameworks = 'libz','libresolv','SystemConfiguration','CoreLocation','CoreTelephony'
     s.ios.deployment_target = '8.0'
     s.vendored_frameworks ='DXRisk.framework'
   end
