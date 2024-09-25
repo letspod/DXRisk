@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.authors      = "DX"
     s.name         = "DXCaptcha"
-    s.version      = "5.4.13"
+    s.version      = "5.4.14"
     s.summary      = "顶象无感验证"
     s.description  = "顶象无感验证 dx-rick SDK"
     s.homepage     = "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-12"
